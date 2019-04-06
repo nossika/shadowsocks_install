@@ -1,44 +1,17 @@
-![Shadowsocks](https://github.com/teddysun/shadowsocks_install/raw/master/shadowsocks.png)
-# Auto install Shadowsocks Server
+# shadowsocks服务端自动安装
 
-shadowsocks.sh
-===============
-- Auto Install Shadowsocks(Python) Server for CentOS/Debian/Ubuntu
-- https://teddysun.com/342.html
+1. 下载shell脚本
 
-shadowsocks-libev.sh
-===============
-- Auto Install Shadowsocks(libev) Server for CentOS
-- https://teddysun.com/357.html
+        wget https://raw.githubusercontent.com/nossika/shadowsocks_install/master/shadowsocks-go.sh    
+    
+2. 给予脚本执行权限
 
-shadowsocks-libev-debian.sh
-===============
-- Auto Install Shadowsocks(libev) Server for Debian/Ubuntu
-- https://teddysun.com/358.html
+        chmod +x shadowsocks-go.sh
+    
+3. 执行脚本
 
-shadowsocks-go.sh
-===============
-- Auto Install Shadowsocks(Go) Server for CentOS/Debian/Ubuntu
-- https://teddysun.com/392.html
+        ./shadowsocks-go.sh
+    
+4. 出现安装界面，根据提示设置ss的密码、端口、加密方式
 
-shadowsocks-crond.sh
-===============
-- Check Shadowsocks(All version) Server is running or not, and start it if not running
-- https://teddysun.com/525.html
-
-shadowsocksR.sh
-===============
-- Auto Install ShadowsocksR Server for CentOS/Debian/Ubuntu
-- https://shadowsocks.be/9.html
-
-shadowsocks-all.sh
-==================
-- Auto Install Shadowsocks Server (all version) for CentOS/Debian/Ubuntu
-- https://teddysun.com/486.html
-
-haproxy.sh
-===============
-- Auto Install haproxy for Shadowsocks Server
-- https://shadowsocks.be/10.html
-
-Copyright (C) 2014-2019 Teddysun
+5. 等待安装完成
